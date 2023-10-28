@@ -621,10 +621,11 @@ body  {
 
 .form_email_footer {
     display: flex;
+    gap: 24px;
 }
 
 .label_email_footer {
-    gap: 24px;
+    /* gap: 24px; */
 }
 
 .input_email_footer {
@@ -657,7 +658,6 @@ body  {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    margin-left: 24px;
 }
 
 .svg_style_footer {
@@ -809,7 +809,7 @@ body  {
     margin-bottom: 24px;
 }
 
-.input_checkbox:checked + .checkbox_icon {
+.input_checkbox:checked + .checkbox_text_privacy span {
     border-color: var(--IRIS, #404bbf);
     border: none; 
     fill: var(--CLOUD, #F4F4FD);
