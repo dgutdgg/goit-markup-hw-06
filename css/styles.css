@@ -769,7 +769,7 @@ body  {
 
 .field_icon {
 	position: absolute;
-    margin-left: 16px;
+    left: 16px;
     top: 50%;
     transform: translate(0, -50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -822,7 +822,6 @@ body  {
     font-style: normal;
     line-height: 1.17; 
     letter-spacing: 0.04em; 
-    padding-top: 16px;
 }
 
 .checkbox_icon {
