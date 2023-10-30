@@ -787,11 +787,6 @@ body  {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-/* .field_icon:hover,
-.field_icon:focus {
-    fill: #4D5AE5;
-} */
-
 .field_name_checkbox {
     margin-bottom: 16px;
 }
@@ -819,6 +814,7 @@ body  {
 
 .checkbox_modal {
     margin-bottom: 24px;
+    position: relative;
 }
 
 .input_checkbox:checked + .checkbox_text_privacy span {
@@ -846,6 +842,12 @@ body  {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
+}
+
+.field_icon_checked {
+	position: absolute;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .checkbox_text_link {
